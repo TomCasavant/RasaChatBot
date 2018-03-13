@@ -1,0 +1,722 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Helo"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Hi"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Hi! :)"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Hey"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Heyyy"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "What's up?"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Good morning"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hola"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Hey man"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "How's Life?"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "What's new?"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "How's your day?"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "Welcome"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Goodbye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Adios"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "See ya"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Talk to you later"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Bye!"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Bye :("
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Bye bye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "See you later"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "I gotta go"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "See you"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Have a good day"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Take care"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Good night"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Goodnight"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "Later"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 10, 
+            "value": "Tom", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Insult Tom"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 16, 
+            "value": "Tom", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Let's insult Tom"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 21, 
+            "value": "@username", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Make fun of @username"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Insult me"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Make fun of me"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Roast me"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 6, 
+            "end": 12, 
+            "value": "George", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Roast George"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "Roger", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Roger needs an insult"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Roast time!"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 14, 
+            "value": "Samuel Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Samuel Johnson needs an insult"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 25, 
+            "end": 36, 
+            "value": "Harold King", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "", 
+        "text": "I think we need to roast Harold King"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 29, 
+            "value": "@frankie111", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "We need to insult @frankie111"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 28, 
+            "value": "Jimmy John's", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Brutally insult Jimmy John's now"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 19, 
+            "end": 30, 
+            "value": "Sammy Smith", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "We haven't roasted Sammy Smith in a while!"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Gimme an insult"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Give me an insult"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Make me cry"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Make me angry"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 9, 
+            "value": "Joey", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Make Joey cry!"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 8, 
+            "value": "@Joey101", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "@Joey101 needs to be insulted"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Hit me with your best shot"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "What's your best insult?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 30, 
+            "end": 37, 
+            "value": "Jackson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Give me your worst insult for Jackson"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Insult"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Roast!"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Roast Fest!"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "Jerry", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Jerry hasn't been insulted in weeks"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 18, 
+            "value": "@harold452", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "We need @harold452 to be made fun of"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Be rude to me"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 24, 
+            "value": "Boris Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Be rude to Boris Johnson"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 13, 
+            "value": "Jerry and Jim", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Jerry and Jim should both be made fun of"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Insult me today"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Hurt me"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 26, 
+            "end": 33, 
+            "value": "@samson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Why don't you make fun of @samson more often?"
+      }, 
+      {
+        "entities": [], 
+        "intent": "insult", 
+        "text": "Please, insult him"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 19, 
+            "end": 33, 
+            "value": "@jerrySeinfeld", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Please make fun of @jerrySeinfeld"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 23, 
+            "end": 34, 
+            "value": "Terry Brown", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "You should make fun of Terry Brown"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Compliment me"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Compliment"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Be nice to me"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "You should compliment me"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 18, 
+            "end": 21, 
+            "value": "Tom", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "Please compliment Tom"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Make me happy"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Make me smile"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 9, 
+            "value": "Gary", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "Make Gary's day!"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 12, 
+            "value": "@Phillip9088", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "@Phillip9088 needs a compliment"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "I need  a compliment"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 25, 
+            "end": 30, 
+            "value": "Harry", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "Why don't you compliment Harry?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 22, 
+            "end": 37, 
+            "value": "Ulysses S Grant", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "We should be nicer to Ulysses S Grant now!"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 34, 
+            "end": 39, 
+            "value": "Barry", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "You should say something nicer to Barry"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Please, compliment him"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Be nice to him"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Be kinder to her"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Gimme a compliment"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Give me a compliment"
+      }, 
+      {
+        "entities": [], 
+        "intent": "compliment", 
+        "text": "Give him a compliment"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 21, 
+            "value": "Samuel L Jackson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "Give Samuel L Jackson a compliment"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Thanks!"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Thank you!"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Thanks a lot"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "That made me smile"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "That was very nice"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "That was great"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Amazing!"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Cool"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Sweet"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Nice"
+      }, 
+      {
+        "entities": [], 
+        "intent": "gratitude", 
+        "text": "Very neat"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "That was rude"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "That was kind of harsh"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "Man, that hurt"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "Ooh, that was rude"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "Ouch"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "That was not very nice"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "That was degrading"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "That burnt"
+      }, 
+      {
+        "entities": [], 
+        "intent": "apology", 
+        "text": "That was a little rough"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}

@@ -1,29 +1,51 @@
 slots:
- location:
+ name:
    type: text
 
 
 intents:
  - greet
  - goodbye
- - inform
+ - insult
+ - compliment
+ - gratitude
+ - apology
 
 
 entities:
- - location
+ - name
 
 
 templates:
  utter_greet:
-  - 'Hello! How can I be of assistance?'
+  - 'Hello!'
+  - 'Hey!'
+  - 'Howdy'
+  - 'What's up?'
+  - 'What do you need?'
  utter_goodbye:
   - 'Talk to you later.'
   - 'Adieu!'
- utter_ask_location:
-  - 'In what location?'
+  - 'Adios.'
+  - 'See you later'
+ utter_gratitude:
+  - 'You are very welcome'
+  - 'No problem'
+  - 'Glad to be of service'
+  - 'You are welcome'
+  - 'Forget it'
+  - 'Just doing my job'
+ utter_apology:
+  - 'I apologize'
+  - 'Im sorry'
+  - 'I was only joking'
+  - 'I probably wont do it again'
+  - 'I am super sorry'
 
 actions:
  - utter_greet
  - utter_goodbye
- - utter_ask_location
- - actions.ActionWeather
+ - utter_gratitude
+ - utter_apology
+ - actions.ActionInsult
+ - actions.ActionCompliment

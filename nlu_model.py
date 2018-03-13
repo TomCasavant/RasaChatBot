@@ -7,11 +7,11 @@ def train_nlu(data, config, model_dir):
 	training_data = load_data(data)
 	trainer = Trainer(RasaNLUConfig(config))
 	trainer.train(training_data)
-	model_directory = trainer.persist(model_dir, fixed_model_name = "weather_nlu")
+	model_directory = trainer.persist(model_dir, fixed_model_name = "chatnlu")
 
 def run_nlu():
-	interpreter = Interpreter.load('./models/nlu/default/weather_nlu', RasaNLUConfig('config_spacy.json'))
-	print(interpreter.parse(u"Is there bad weather in Madrid?"))
+	interpreter = Interpreter.load('./models/nlu/default/chatnlu', RasaNLUConfig('config_spacy.json'))
+	print(interpreter.parse(u"Insult"))
 
 
 if __name__ == '__main__':

@@ -14,7 +14,7 @@ if __name__ == '__main__':
 	training_data_file = './data/stories.md'
 	model_path = './models/dialogue'
 	
-	agent = Agent('weather_domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
+	agent = Agent('chat_bot_domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
 	
 	agent.train(
 			training_data_file,
