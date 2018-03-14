@@ -21,7 +21,7 @@ class ActionInsult(Action):
 			response = """You are a {}""".format(insult)
 
 		dispatcher.utter_message(response)
-		return [SlotSet('name', name)]
+		return [SlotSet('name', None)]
 
 
 class ActionCompliment(Action):
@@ -37,5 +37,5 @@ class ActionCompliment(Action):
 			response = """You are a {}""".format(compliment)
 
 		dispatcher.utter_message(response)
-		return [SlotSet('name', name)]
+		return [SlotSet('name', None)]
 
