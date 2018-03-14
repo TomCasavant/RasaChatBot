@@ -10,18 +10,18 @@ from rasa_core.policies.memoization import MemoizationPolicy
 
 if __name__ == '__main__':
 	logging.basicConfig(level='INFO')
-	
+
 	training_data_file = './data/stories.md'
 	model_path = './models/dialogue'
-	
+
 	agent = Agent('chat_bot_domain.yml', policies = [MemoizationPolicy(), KerasPolicy()])
-	
+
 	agent.train(
 			training_data_file,
 			augmentation_factor = 50,
-			max_history = 2,
-			epochs = 500,
-			batch_size = 10,
-			validation_split = 0.2)
-			
+			max_history = 3,
+			epochs = 1000,
+			batch_size = 50,
+			validation_split = 0.1)
+
 	agent.persist(model_path)

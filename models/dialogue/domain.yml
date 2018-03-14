@@ -1,0 +1,56 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_gratitude
+- utter_apology
+- action_insult
+- action_compliment
+actions:
+- utter_greet
+- utter_goodbye
+- utter_gratitude
+- utter_apology
+- actions.ActionInsult
+- actions.ActionCompliment
+config:
+  store_entities_as_slots: true
+entities:
+- name
+intents:
+- greet
+- goodbye
+- insult
+- compliment
+- gratitude
+- apology
+slots:
+  name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_apology:
+  - text: I apologize
+  - text: Im sorry
+  - text: I was only joking
+  - text: I probably wont do it again
+  - text: I am super sorry
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Adieu!
+  - text: Adios.
+  - text: See you later
+  utter_gratitude:
+  - text: You are very welcome
+  - text: No problem
+  - text: Glad to be of service
+  - text: You are welcome
+  - text: Forget it
+  - text: Just doing my job
+  utter_greet:
+  - text: Hello!
+  - text: Hey!
+  - text: Howdy
+  - text: Whats up?
+  - text: What do you need?
+topics: []

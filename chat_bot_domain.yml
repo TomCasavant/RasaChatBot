@@ -21,7 +21,7 @@ templates:
   - 'Hello!'
   - 'Hey!'
   - 'Howdy'
-  - 'What's up?'
+  - 'Whats up?'
   - 'What do you need?'
  utter_goodbye:
   - 'Talk to you later.'

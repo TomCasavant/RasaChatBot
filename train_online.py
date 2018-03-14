@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 def run_weather_online(input_channel, interpreter,
-                          domain_file="chat_bot__domain.yml",
+                          domain_file="chat_bot_domain.yml",
                           training_data_file='data/stories.md'):
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(), KerasPolicy()],
@@ -26,7 +26,7 @@ def run_weather_online(input_channel, interpreter,
                        input_channel=input_channel,
                        max_history=2,
                        batch_size=50,
-                       epochs=200,
+                       epochs=500,
                        max_training_samples=300)
 
     return agent
@@ -34,5 +34,5 @@ def run_weather_online(input_channel, interpreter,
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/chatbotnlu')
+    nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/chatnlu')
     run_weather_online(ConsoleInputChannel(), nlu_interpreter)

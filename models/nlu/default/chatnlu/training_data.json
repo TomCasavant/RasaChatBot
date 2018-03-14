@@ -145,13 +145,13 @@
         "entities": [
           {
             "start": 7, 
-            "end": 10, 
+            "end": 13, 
             "value": "Tom", 
             "entity": "name"
           }
         ], 
         "intent": "insult", 
-        "text": "Insult Tom"
+        "text": "Insult Steven"
       }, 
       {
         "entities": [
@@ -164,6 +164,18 @@
         ], 
         "intent": "insult", 
         "text": "Let's insult Tom"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "@pdiddy", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Insult @pdiddy"
       }, 
       {
         "entities": [
@@ -242,7 +254,7 @@
             "entity": "name"
           }
         ], 
-        "intent": "", 
+        "intent": "insult", 
         "text": "I think we need to roast Harold King"
       }, 
       {
@@ -714,6 +726,102 @@
         "entities": [], 
         "intent": "apology", 
         "text": "That was a little rough"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 15, 
+            "value": "@timothy", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Insult @timothy"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 12, 
+            "end": 20, 
+            "value": "@bobross", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Make fun of @bobross"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 24, 
+            "value": "@heavenlyname", 
+            "entity": "insult"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Be rude to @heavenlyname"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 18, 
+            "value": "Gerald Ford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "Insult Gerald Ford"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 27, 
+            "value": "@thisisausername", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "Compliment @thisisausername"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 11, 
+            "end": 26, 
+            "value": "Abraham Lincoln", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "Compliment Abraham Lincoln"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 5, 
+            "value": "@user", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "compliment", 
+        "text": "@user needs a compliment"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 9, 
+            "value": "@fishhead", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "insult", 
+        "text": "@fishhead needs to be insulted"
       }
     ], 
     "entity_synonyms": [], 

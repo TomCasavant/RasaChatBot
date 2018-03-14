@@ -6,9 +6,9 @@ import json
 
 def generatePhrase(insult=True):
 	if (insult):
-		filepath = 'insults.yml'
+		filepath = '/insults.yml'
 	else:
-		filepath = 'compliments.yml'
+		filepath = '/compliments.yml'
 	config = yaml.load(open(os.path.dirname(__file__) + filepath))
 
 	col1 = random.choice(config['column1'])

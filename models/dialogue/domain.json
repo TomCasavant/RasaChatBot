@@ -1,0 +1,20 @@
+{
+  "features": [
+    "intent_greet", 
+    "intent_goodbye", 
+    "intent_insult", 
+    "intent_compliment", 
+    "intent_gratitude", 
+    "intent_apology", 
+    "entity_name", 
+    "slot_name_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_goodbye", 
+    "prev_utter_gratitude", 
+    "prev_utter_apology", 
+    "prev_action_insult", 
+    "prev_action_compliment"
+  ]
+}

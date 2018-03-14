@@ -142,12 +142,12 @@
         "entities": []
       },
       {
-        "text": "Insult Tom",
+        "text": "Insult Steven",
         "intent": "insult",
         "entities": [
           {
             "start": 7,
-            "end": 10,
+            "end": 13,
             "value": "Tom",
             "entity": "name"
           }
@@ -161,6 +161,18 @@
             "start": 13,
             "end": 16,
             "value": "Tom",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Insult @pdiddy",
+        "intent": "insult",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "@pdiddy",
             "entity": "name"
           }
         ]
@@ -235,7 +247,7 @@
       },
       {
         "text": "I think we need to roast Harold King",
-        "intent": "",
+        "intent": "insult",
         "entities": [
           {
             "start": 25,
@@ -714,6 +726,102 @@
         "text": "That was a little rough",
         "intent": "apology",
         "entities": []
+      },
+      {
+        "text": "Insult @timothy",
+        "intent": "insult",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "@timothy",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Make fun of @bobross",
+        "intent": "insult",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "@bobross",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Be rude to @heavenlyname",
+        "intent": "insult",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "@heavenlyname",
+            "entity": "insult"
+          }
+        ]
+      },
+      {
+        "text": "Insult Gerald Ford",
+        "intent": "insult",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Gerald Ford",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Compliment @thisisausername",
+        "intent": "compliment",
+        "entities": [
+          {
+            "start": 11,
+            "end": 27,
+            "value": "@thisisausername",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Compliment Abraham Lincoln",
+        "intent": "compliment",
+        "entities": [
+          {
+            "start": 11,
+            "end": 26,
+            "value": "Abraham Lincoln",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "@user needs a compliment",
+        "intent": "compliment",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "@user",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "@fishhead needs to be insulted",
+        "intent": "insult",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "@fishhead",
+            "entity": "name"
+          }
+        ]
       }
     ]
   }

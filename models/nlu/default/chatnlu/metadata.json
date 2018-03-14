@@ -1,5 +1,5 @@
 {
-    "entity_synonyms": null, 
+    "entity_synonyms": "entity_synonyms.json", 
     "pipeline": [
         "rasa_nlu.utils.spacy_utils.SpacyNLP", 
         "rasa_nlu.tokenizers.spacy_tokenizer.SpacyTokenizer", 
@@ -12,7 +12,7 @@
     "spacy_model_name": "en", 
     "language": "en", 
     "intent_classifier_sklearn": "intent_classifier.pkl", 
-    "trained_at": "20180313-170443", 
+    "trained_at": "20180313-204415", 
     "training_data": "training_data.json", 
     "entity_extractor_crf": {
         "BILOU_flag": true, 
